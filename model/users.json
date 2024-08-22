@@ -1,1 +1,28 @@
-[{"username":"test2","password":"$2b$10$IdyDFx03WW9fuCuG2Rvh7u3qC8YESl5ymiOSZpTC9xnpkoN4Sil8u"},{"username":"test1","password":"$2b$10$JvvPfKd9ynCiCEBakSEU1O4AWV.28w8meXsgQGraRCP4NKSvdVibq","refreshToken":""}]
+[
+  {
+    "username": "test2",
+    "roles": {
+      "User": 2001,
+      "Editor": 1984,
+      "Admin": 5150
+    },
+    "password": "$2b$10$IdyDFx03WW9fuCuG2Rvh7u3qC8YESl5ymiOSZpTC9xnpkoN4Sil8u"
+  },
+  {
+    "username": "test2",
+    "roles": {
+      "User": 2001,
+      "Editor": 1984
+    },
+    "password": "$2b$10$JvvPfKd9ynCiCEBakSEU1O4AWV.28w8meXsgQGraRCP4NKSvdVibq",
+    "refreshToken": ""
+  },
+  {
+    "username": "test3",
+    "roles": {
+      "User": 2001
+    },
+    "password": "$2b$10$JvvPfKd9ynCiCEBakSEU1O4AWV.28w8meXsgQGraRCP4NKSvdVibq",
+    "refreshToken": ""
+  }
+]
