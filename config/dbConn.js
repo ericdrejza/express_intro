@@ -6,6 +6,7 @@ const connectDB = async () => {
       useUnifiedTopology: true,
       useNewUrlParser: true
     });
+    mongoose.connection.useDb('CompanyDB');
   } catch (err) {
     console.error(err);
   }
